@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="kk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Тариф таңдау моделі</title>
+<meta name="description" content="Ұялы байланыс тарифін қажеттілікке қарай математикалық модельмен таңдау: K = min(Gт/G, Mт/M, Sт/S, Nт/N).">
+<meta name="theme-color" content="#0B3542">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Тариф моделі">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="appbar">
+  <div class="appbar-in">
+    <svg class="logo" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="9" fill="rgba(255,255,255,.14)"/><rect x="6" y="20" width="4.5" height="8" rx="1.2" fill="#fff"/><rect x="12.5" y="15" width="4.5" height="13" rx="1.2" fill="#fff"/><rect x="19" y="10" width="4.5" height="18" rx="1.2" fill="#fff"/><rect x="25.5" y="5" width="4.5" height="23" rx="1.2" fill="#E8631A"/></svg>
+    <div>
+      <div class="ttl">Тариф таңдау моделі</div>
+      <div class="sub">K = min(Kг, Kм, Kс, Kн)</div>
+    </div>
+    <nav class="topnav" aria-label="Негізгі бөлімдер" id="topnav"></nav>
+    <div class="sp"><button class="chip-btn" type="button" id="installBtn" hidden>Орнату</button></div>
+  </div>
+</header>
+
+<main id="view" tabindex="-1">
+  <noscript><div class="card">Қолданба жұмыс істеуі үшін браузерде JavaScript қосулы болуы керек.</div></noscript>
+</main>
+
+<div id="printArea" aria-hidden="true"></div>
+
+<nav class="bnav" aria-label="Төменгі мәзір">
+  <ul id="bnav"></ul>
+</nav>
+
+<script src="js/tariffs.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

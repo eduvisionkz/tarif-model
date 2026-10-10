@@ -1,0 +1,24 @@
+{
+  "name": "Тариф таңдау моделі",
+  "short_name": "Тариф моделі",
+  "description": "Ұялы байланыс тарифін қажеттілікке қарай математикалық модельмен таңдау.",
+  "lang": "kk",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./#home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#D3ECE5",
+  "theme_color": "#0B3542",
+  "categories": ["utilities", "education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Тариф таңдау", "url": "./#pick", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Шығын тарихы", "url": "./#history", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
